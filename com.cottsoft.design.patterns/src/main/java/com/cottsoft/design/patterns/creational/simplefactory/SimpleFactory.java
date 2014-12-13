@@ -57,7 +57,7 @@ public class SimpleFactory {
 			}else if("British".equalsIgnoreCase(personWhich)){
 				return new SimpleFactory().new  BritishImpl();
 			}else{
-				return null;//未来人
+				return null;//未知人
 			}
 		}
 	}
