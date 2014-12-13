@@ -1,2 +1,17 @@
 18:21:15.292 [main] INFO  c.c.d.p.creational.factorymethod.FactoryMethod [Log.java:37]  - iPhone手机。
 18:21:15.296 [main] INFO  c.c.d.p.creational.factorymethod.FactoryMethod [Log.java:37]  - Samsung GALAXY Note I手机。
+19:07:57.948 [main] INFO  c.c.d.p.c.polymorphicfactory.PolymorphicFactory [Log.java:37]  - 亚洲
+19:07:57.953 [main] INFO  c.c.d.p.c.polymorphicfactory.PolymorphicFactory [Log.java:37]  - 中国人说中国话。
+19:07:57.953 [main] INFO  c.c.d.p.c.polymorphicfactory.PolymorphicFactory [Log.java:37]  - 美国绿卡
+19:07:57.954 [main] INFO  c.c.d.p.c.polymorphicfactory.PolymorphicFactory [Log.java:37]  - 美国人爱打仗。
+19:07:57.954 [main] INFO  c.c.d.p.c.polymorphicfactory.PolymorphicFactory [Log.java:37]  - 英国人很绅士
+19:07:57.954 [main] INFO  c.c.d.p.c.polymorphicfactory.PolymorphicFactory [Log.java:37]  - 英国人老爱跟着美国人屁股后面屁点屁点的打仗。
+19:07:57.955 [main] INFO  c.c.d.p.c.polymorphicfactory.PolymorphicFactory [Log.java:37]  - 中国人吃中餐。
+19:07:57.955 [main] INFO  c.c.d.p.c.polymorphicfactory.PolymorphicFactory [Log.java:37]  - 中国人在中国的地盘上行走。
+19:07:57.956 [main] INFO  c.c.d.p.c.polymorphicfactory.PolymorphicFactory [Log.java:37]  - 中国人在中国公司工作。
+19:07:57.956 [main] INFO  c.c.d.p.c.polymorphicfactory.PolymorphicFactory [Log.java:37]  - 美国人吃火鸡。
+19:07:57.956 [main] INFO  c.c.d.p.c.polymorphicfactory.PolymorphicFactory [Log.java:37]  - 美国人在全世界行走。
+19:07:57.957 [main] INFO  c.c.d.p.c.polymorphicfactory.PolymorphicFactory [Log.java:37]  - 美国人在全世界工作。
+19:07:57.957 [main] INFO  c.c.d.p.c.polymorphicfactory.PolymorphicFactory [Log.java:37]  - 英国人爱吃西餐。
+19:07:57.958 [main] INFO  c.c.d.p.c.polymorphicfactory.PolymorphicFactory [Log.java:37]  - 英国跟着美国人在全世界行走。
+19:07:57.958 [main] INFO  c.c.d.p.c.polymorphicfactory.PolymorphicFactory [Log.java:37]  - 英国人在欧洲工作。
