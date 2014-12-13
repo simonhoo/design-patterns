@@ -1,0 +1,2 @@
+18:21:15.292 [main] INFO  c.c.d.p.creational.factorymethod.FactoryMethod [Log.java:37]  - iPhone手机。
+18:21:15.296 [main] INFO  c.c.d.p.creational.factorymethod.FactoryMethod [Log.java:37]  - Samsung GALAXY Note I手机。
