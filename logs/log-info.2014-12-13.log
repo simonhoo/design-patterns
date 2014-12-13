@@ -15,3 +15,21 @@
 19:07:57.957 [main] INFO  c.c.d.p.c.polymorphicfactory.PolymorphicFactory [Log.java:37]  - 英国人爱吃西餐。
 19:07:57.958 [main] INFO  c.c.d.p.c.polymorphicfactory.PolymorphicFactory [Log.java:37]  - 英国跟着美国人在全世界行走。
 19:07:57.958 [main] INFO  c.c.d.p.c.polymorphicfactory.PolymorphicFactory [Log.java:37]  - 英国人在欧洲工作。
+20:48:19.972 [main] INFO  c.c.d.p.creational.abstractfactory.AbstractFactory [Log.java:37]  - 富士康工厂：
+20:48:19.977 [main] INFO  c.c.d.p.creational.abstractfactory.AbstractFactory [Log.java:37]  - 三星工厂：
+20:48:19.979 [main] INFO  c.c.d.p.creational.abstractfactory.AbstractFactory [Log.java:37]  - Iphone 手机
+20:48:19.980 [main] INFO  c.c.d.p.creational.abstractfactory.AbstractFactory [Log.java:37]  - Samsung GALAXY手机。
+20:48:19.981 [main] INFO  c.c.d.p.creational.abstractfactory.AbstractFactory [Log.java:37]  - 西门子电话机。
+20:48:19.981 [main] INFO  c.c.d.p.creational.abstractfactory.AbstractFactory [Log.java:37]  - TCL电话机。
+20:55:14.393 [main] INFO  c.c.d.p.creational.abstractfactory.AbstractFactory [Log.java:37]  - 富士康工厂：
+20:55:14.400 [main] INFO  c.c.d.p.creational.abstractfactory.AbstractFactory [Log.java:37]  - Iphone 手机
+20:55:14.401 [main] INFO  c.c.d.p.creational.abstractfactory.AbstractFactory [Log.java:37]  - 西门子电话机。
+20:55:14.403 [main] INFO  c.c.d.p.creational.abstractfactory.AbstractFactory [Log.java:37]  - 三星工厂：
+20:55:14.405 [main] INFO  c.c.d.p.creational.abstractfactory.AbstractFactory [Log.java:37]  - Samsung GALAXY手机。
+20:55:14.406 [main] INFO  c.c.d.p.creational.abstractfactory.AbstractFactory [Log.java:37]  - TCL电话机。
+20:55:43.824 [main] INFO  c.c.d.p.creational.abstractfactory.AbstractFactory [Log.java:37]  - 富士康工厂生产：
+20:55:43.829 [main] INFO  c.c.d.p.creational.abstractfactory.AbstractFactory [Log.java:37]  - Iphone 手机
+20:55:43.830 [main] INFO  c.c.d.p.creational.abstractfactory.AbstractFactory [Log.java:37]  - 西门子电话机。
+20:55:43.831 [main] INFO  c.c.d.p.creational.abstractfactory.AbstractFactory [Log.java:37]  - 三星工厂生产：
+20:55:43.832 [main] INFO  c.c.d.p.creational.abstractfactory.AbstractFactory [Log.java:37]  - Samsung GALAXY手机。
+20:55:43.833 [main] INFO  c.c.d.p.creational.abstractfactory.AbstractFactory [Log.java:37]  - TCL电话机。
