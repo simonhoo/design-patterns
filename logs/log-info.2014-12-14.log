@@ -1,0 +1,11 @@
+10:06:22.237 [main] INFO  c.c.d.patterns.creational.multiton.ConfigFileLimit [Log.java:37]  - 我是文件：1
+10:06:22.243 [main] INFO  c.c.d.patterns.creational.multiton.ConfigFileLimit [Log.java:37]  - 我是文件：2
+10:06:22.244 [main] INFO  c.c.d.p.creational.multiton.ConfigFileNoLimit [Log.java:37]  - 语言:en
+国家：US
+Code：en_US
+10:06:22.245 [main] INFO  c.c.d.p.creational.multiton.ConfigFileNoLimit [Log.java:37]  - 语言:zh
+国家：TW
+Code：zh_TW
+10:06:22.245 [main] INFO  c.c.d.p.creational.multiton.ConfigFileNoLimit [Log.java:37]  - 语言:zh
+国家：HK
+Code：zh_HK

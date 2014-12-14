@@ -22,30 +22,42 @@
 
 package com.cottsoft.design.patterns.creational.multiton;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
+import com.cottsoft.design.patterns.Log;
+
 /**
  * Description：<br> 
- * 多例模式（Multiton）
+ * 多例模式（Multiton）,实例个数有上限
  * @author  Simon.Hoo(Info@cottsoft.com)
  * @date    2005年06月06
+ * 
  * @version v1.0.0
  */
-public class Multiton {
-
-	public static void main(String[] args) {
-		//有上限
-		ConfigFileLimit limitFile1 = ConfigFileLimit.getInstance(1);
-		limitFile1.method();
-		ConfigFileLimit limitFile2 = ConfigFileLimit.getInstance(2);
-		limitFile2.method();
-
-		//无上限
-		ConfigFileNoLimit noLimitEnUS = ConfigFileNoLimit.getInstance("en", "US");
-		noLimitEnUS.method();		
-		ConfigFileNoLimit noLimitZhTW = ConfigFileNoLimit.getInstance("zh", "TW");
-		noLimitZhTW.method();		
-		ConfigFileNoLimit noLimitZhHK = ConfigFileNoLimit.getInstance("zh", "HK");
-		noLimitZhHK.method();
+public class ConfigFileLimit {
+	private Logger logger = LoggerFactory.getLogger(ConfigFileLimit.class);
+	
+	private static ConfigFileLimit configFile1 = new ConfigFileLimit(1);
+	private static ConfigFileLimit configFile2 = new ConfigFileLimit(2);
+	
+	private int flag;
+	private ConfigFileLimit(){
+		
+	}
+	private ConfigFileLimit(int flag){
+		this.flag = flag;
+	}
+	
+	public static ConfigFileLimit getInstance(int whichFile){
+		switch(whichFile){
+			case 1:  return configFile1;
+			case 2:  return configFile2;
+			default : return null;
+		}
+	}
+	
+	public synchronized void method(){
+		Log.log(logger, "我是文件："+flag);
 	}
 }
-
-
