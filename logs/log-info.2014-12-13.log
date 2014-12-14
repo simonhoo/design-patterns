@@ -33,3 +33,10 @@
 20:55:43.831 [main] INFO  c.c.d.p.creational.abstractfactory.AbstractFactory [Log.java:37]  - 三星工厂生产：
 20:55:43.832 [main] INFO  c.c.d.p.creational.abstractfactory.AbstractFactory [Log.java:37]  - Samsung GALAXY手机。
 20:55:43.833 [main] INFO  c.c.d.p.creational.abstractfactory.AbstractFactory [Log.java:37]  - TCL电话机。
+21:54:26.404 [main] INFO  c.c.d.patterns.creational.singleton.EagerSingleton [Log.java:37]  - 单例（Singleton）,饿汉式
+21:54:26.415 [main] INFO  c.c.d.patterns.creational.singleton.LazySingleton [Log.java:37]  - 单例（Singleton）,懒汉式
+21:54:26.418 [main] INFO  c.c.d.patterns.creational.singleton.RegSingleton [Log.java:37]  - 单例（Singleton）,登记式
+21:59:48.307 [main] INFO  c.c.d.patterns.creational.singleton.EagerSingleton [Log.java:37]  - 单例（Singleton）,饿汉式
+21:59:48.311 [main] INFO  c.c.d.patterns.creational.singleton.LazySingleton [Log.java:37]  - 单例（Singleton）,懒汉式
+21:59:48.313 [main] INFO  c.c.d.patterns.creational.singleton.RegSingleton [Log.java:37]  - 单例（Singleton）,登记式
+21:59:48.314 [main] INFO  c.c.d.p.creational.singleton.RegSingletonChild [Log.java:37]  - 单例（Singleton）,登记式子类

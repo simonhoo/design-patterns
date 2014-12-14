@@ -22,28 +22,40 @@
 
 package com.cottsoft.design.patterns.creational.singleton;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
+import com.cottsoft.design.patterns.Log;
+
 /**
  * Description：<br> 
- * 单例（Singleton）
+ * 单例（Singleton）,登记式子类
  * @author  Simon.Hoo(Info@cottsoft.com)
  * @date    2005年05月11日
  * @version v1.0.0
  */
-public class Singleton {
+public class RegSingletonChild extends RegSingleton {
 
-	public static void main(String[] args) {
-		EagerSingleton eager = EagerSingleton.getInstance();
-		eager.test();
+	private Logger logger = LoggerFactory.getLogger(RegSingletonChild.class);
+	
+	public RegSingletonChild(){
 		
-		LazySingleton lazy = LazySingleton.getInstance();
-		lazy.test();
-		
-		RegSingleton reg = RegSingleton.getInstance(RegSingleton.className);
-		reg.test();
-		
-		RegSingletonChild regChild = RegSingletonChild.getInstance();
-		regChild.test();
 	}
+	
+	/**
+	 * 静态工厂方法
+	 * @return
+	 */
+	public static RegSingletonChild getInstance(){
+		return (RegSingletonChild) RegSingleton.getInstance("com.cottsoft.design.patterns.creational.singleton.RegSingletonChild");
+	}
+	
+	/**
+	 * 测试方法
+	 */
+	public void test(){
+		Log.log(logger, "单例（Singleton）,登记式子类");
+	} 
 }
 
 
